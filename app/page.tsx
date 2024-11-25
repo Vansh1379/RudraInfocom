@@ -1,5 +1,6 @@
 import React from "react";
 import { BackgroundLines } from "@/components/ui/background-lines";
+import { Button } from "@/components/ui/button"
 
 export default function BackgroundLinesDemo() {
   return (
@@ -10,6 +11,7 @@ export default function BackgroundLinesDemo() {
       <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
         Get the best advices from our experts, including expert artists,
         painters, marathon enthusiasts and RDX, totally free.
+        <Button >Hello</Button>
       </p>
     </BackgroundLines>
   );
