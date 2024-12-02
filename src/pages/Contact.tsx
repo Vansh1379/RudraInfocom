@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'react-feather';
-import {Navbar} from '../components/Navbar';
+import { Navbar } from '../components/Navbar';
 
 interface FormData {
     firstName: string;
@@ -297,14 +297,19 @@ export const Contact: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center text-[#1e2d5f] mb-12">Visit Our Office</h2>
                     <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9014419969!2d72.55434661496815!3d23.033559384946705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1624007482142!5m2!1sen!2sin"
-                            width="100%"
-                            height="100%"
-                            style={{ border: 0 }}
-                            allowFullScreen
-                            loading="lazy"
-                        ></iframe>
+                        <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
+                            <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9014419969!2d72.55434661496815!3d23.033559384946705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1624007482142!5m2!1sen!2sin"
+                                    width="100%"
+                                    height="100%"
+                                    allowFullScreen
+                                    title="Google Map of Ahmedabad, Gujarat"
+                                ></iframe>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </section>
