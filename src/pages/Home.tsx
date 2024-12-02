@@ -1,7 +1,7 @@
 import CallToAction from "../components/CallToAction"
 import Footer from "../components/Fotter"
 import Hero from "../components/Hero"
-import Navbar from "../components/Navbar"
+import {Navbar} from "../components/Navbar"
 import Services from "../components/Services"
 import WhyChooseUs from "../components/WhyChooseUs"
 
