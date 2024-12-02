@@ -19,6 +19,7 @@ import {
     CheckCircle
 } from 'react-feather';
 import Footer from '../components/Fotter';
+import { Navbar } from '../components/Navbar';
 
 interface Feature {
     icon: React.ElementType;
@@ -61,6 +62,9 @@ export const Features: React.FC = () => {
 
     return (
         <div className="flex flex-col min-h-screen">
+            <div>
+                <Navbar />
+            </div>
             {/* Hero Section */}
             <section className="relative h-[50vh] min-h-[400px] bg-gradient-to-r from-[#1e2d5f] to-[#3a4d8f] flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />
