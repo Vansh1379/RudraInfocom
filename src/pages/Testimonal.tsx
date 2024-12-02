@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight } from 'react-feather';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Fotter';
 
 interface Testimonial {
     id: number;
@@ -13,7 +14,7 @@ interface Testimonial {
     rating: number;
 }
 
- const testimonials: Testimonial[] = [
+const testimonials: Testimonial[] = [
     {
         id: 1,
         name: "John Doe",
@@ -217,6 +218,9 @@ export const Testimonal: React.FC = () => {
                     </Link>
                 </div>
             </section>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };

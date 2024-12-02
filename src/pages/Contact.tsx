@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'react-feather';
 import { Navbar } from '../components/Navbar';
+import Footer from '../components/Fotter';
 
 interface FormData {
     firstName: string;
@@ -313,6 +314,9 @@ export const Contact: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };

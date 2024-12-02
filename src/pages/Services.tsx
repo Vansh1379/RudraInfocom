@@ -11,6 +11,7 @@ import {
     CheckCircle
 } from 'react-feather';
 import { Navbar } from '../components/Navbar';
+import Footer from '../components/Fotter';
 
 export const Services: React.FC = () => {
     const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -267,6 +268,9 @@ export const Services: React.FC = () => {
                     </motion.div>
                 </div>
             </section>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };

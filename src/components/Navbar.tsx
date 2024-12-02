@@ -17,16 +17,16 @@ export const Navbar: React.FC = () => {
     }, []);
 
     const servicesDropdown = [
-        { title: 'Network Solutions', path: '/services/network' },
-        { title: 'IT Security', path: '/services/security' },
-        { title: 'Cloud Services', path: '/services/cloud' },
-        { title: 'Consulting', path: '/services/consulting' },
+        { title: 'Network Solutions', path: '/services' },
+        { title: 'IT Security', path: '/services' },
+        { title: 'Cloud Services', path: '/services' },
+        { title: 'Consulting', path: '/services' },
     ];
 
     const featuresDropdown = [
-        { title: 'Implementation', path: '/features/implementation' },
-        { title: '24/7 Support', path: '/features/support' },
-        { title: 'Maintenance', path: '/features/maintenance' },
+        { title: 'Implementation', path: '/features' },
+        { title: '24/7 Support', path: '/features' },
+        { title: 'Maintenance', path: '/features' },
     ];
 
     return (

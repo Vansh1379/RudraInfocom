@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Monitor, Shield, Wifi, Users, Settings, Tool } from 'react-feather';
 import { Navbar } from '../components/Navbar';
+import Footer from '../components/Fotter';
 
 export const About: React.FC = () => {
     const [activeTab, setActiveTab] = useState('vision');
@@ -217,6 +218,9 @@ export const About: React.FC = () => {
                     </Link>
                 </div>
             </section>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };
