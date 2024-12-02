@@ -7,7 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs"
 
 export const Home = () => {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen overflow-hidden">
             <Navbar />
             <main className="flex-1">
                 <Hero />

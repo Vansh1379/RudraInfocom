@@ -30,10 +30,7 @@ export const Navbar: React.FC = () => {
     ];
 
     return (
-        <header
-            className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-                }`}
-        >
+        <header className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
             <div className="container mx-auto px-4">
                 <nav className="flex items-center justify-between">
                     {/* Logo */}
@@ -100,8 +97,7 @@ export const Navbar: React.FC = () => {
                         <div className="relative group">
                             <button
                                 onMouseEnter={() => setActiveDropdown('features')}
-                                className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-600' : 'text-white'
-                                    } hover:text-[#1e2d5f] transition-colors`}
+                                className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#1e2d5f] transition-colors`}
                             >
                                 <span>Features</span>
                                 <ChevronDown className="w-4 h-4" />
@@ -132,8 +128,7 @@ export const Navbar: React.FC = () => {
 
                         <Link
                             to="/testimonials"
-                            className={`nav-link ${isScrolled ? 'text-gray-600' : 'text-white'
-                                } hover:text-[#1e2d5f] transition-colors`}
+                            className={`nav-link ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#1e2d5f] transition-colors`}
                         >
                             Testimonials
                         </Link>
