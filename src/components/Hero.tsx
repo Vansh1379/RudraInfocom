@@ -1,4 +1,5 @@
 import React from 'react';
+import wifi from "../assets/image.png"
 
 const Hero: React.FC = () => {
   return (
@@ -24,9 +25,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <img
-            src="/placeholder.svg?height=400&width=600"
+            src={wifi}
             alt="Network Infrastructure"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-lg"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-fill dow-lg"
           />
         </div>
       </div>

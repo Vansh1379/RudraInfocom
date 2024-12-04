@@ -1,5 +1,7 @@
 import React from 'react';
 import { CheckCircle } from 'react-feather';
+import image from "../assets/image2.png"
+import image2 from "../assets/chosseUs.png"
 
 const WhyChooseUs: React.FC = () => {
   const reasons = [
@@ -14,9 +16,9 @@ const WhyChooseUs: React.FC = () => {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <img
-            src="/placeholder.svg?height=400&width=600"
+            src={image2}
             alt="Network Operations Center"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-lg"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-fill shadow-lg"
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
