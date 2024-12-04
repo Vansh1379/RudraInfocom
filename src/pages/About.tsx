@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, Monitor, Shield, Wifi, Users, Settings, Tool } from 'react-feather';
 import { Navbar } from '../components/Navbar';
 import Footer from '../components/Fotter';
+import image from "../assets/Screenshot 2024-12-04 130017.png"
 
 export const About: React.FC = () => {
     const [activeTab, setActiveTab] = useState('vision');
@@ -50,7 +51,7 @@ export const About: React.FC = () => {
         },
         {
             title: "CCTV Installation",
-            image: "/placeholder.svg?height=300&width=400",
+            image: image,
             alt: "CCTV Installation"
         }
     ];
