@@ -31,7 +31,6 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a href="#" className="hover:text-gray-300" title='facebook'><Facebook /></a>
               <a href="#" className="hover:text-gray-300" title='twitter'><Twitter /></a>
-              <a href="#" className="hover:text-gray-300" title='twitter'><Twitter /></a>
               <a href="#" className="hover:text-gray-300" title='instagram'><Instagram /></a>
             </div>
           </div>
