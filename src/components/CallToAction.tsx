@@ -1,6 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const CallToAction: React.FC = () => {
+  const navigate = useNavigate();
+  const handleContactSales = () => {
+    navigate('/contact');
+  }
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-[#1e2d5f] text-white">
       <div className="container px-4 md:px-6 mx-auto">
@@ -12,10 +17,10 @@ const CallToAction: React.FC = () => {
             </p>
           </div>
           <div className="w-full max-w-sm space-y-2">
-            <button className="w-full inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#1e2d5f] shadow transition-colors hover:bg-gray-200">
+            <button className="w-full inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#1e2d5f] shadow transition-colors hover:bg-gray-200" onClick={handleContactSales}>
               Contact Sales
             </button>
-            <button className="w-full inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white/10">
+            <button className="w-full inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white/10" onClick={handleContactSales}>
               Request a Demo
             </button>
           </div>

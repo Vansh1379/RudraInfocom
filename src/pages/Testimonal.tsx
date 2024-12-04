@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight } from 'react-feather';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Fotter';
+import { Navbar } from '../components/Navbar';
 
 interface Testimonial {
     id: number;
@@ -84,6 +85,9 @@ export const Testimonal: React.FC = () => {
 
     return (
         <div className="flex flex-col min-h-screen">
+            <div>
+                <Navbar />
+            </div>
             {/* Hero Section */}
             <section className="relative h-[50vh] min-h-[400px] bg-gradient-to-r from-[#1e2d5f] to-[#3a4d8f] flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />

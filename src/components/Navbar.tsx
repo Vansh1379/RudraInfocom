@@ -54,7 +54,7 @@ export const Navbar: React.FC = () => {
                         <Link
                             to="/about"
                             className={`nav-link ${isScrolled ? 'text-gray-600' : 'text-white'
-                                } hover:text-[#1e2d5f] transition-colors`}
+                                } hover:text-[#98a3c7] transition-colors`}
                         >
                             About
                         </Link>
@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
                             <button
                                 onMouseEnter={() => setActiveDropdown('services')}
                                 className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-600' : 'text-white'
-                                    } hover:text-[#1e2d5f] transition-colors`}
+                                    } hover:text-[#8896c3] transition-colors`}
                             >
                                 <span>Services</span>
                                 <ChevronDown className="w-4 h-4" />
@@ -97,7 +97,7 @@ export const Navbar: React.FC = () => {
                         <div className="relative group">
                             <button
                                 onMouseEnter={() => setActiveDropdown('features')}
-                                className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#1e2d5f] transition-colors`}
+                                className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#8593c3] transition-colors`}
                             >
                                 <span>Features</span>
                                 <ChevronDown className="w-4 h-4" />
@@ -116,7 +116,7 @@ export const Navbar: React.FC = () => {
                                             <Link
                                                 key={item.path}
                                                 to={item.path}
-                                                className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-[#1e2d5f]"
+                                                className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-[#8494c7]"
                                             >
                                                 {item.title}
                                             </Link>
@@ -128,7 +128,7 @@ export const Navbar: React.FC = () => {
 
                         <Link
                             to="/testimonials"
-                            className={`nav-link ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#1e2d5f] transition-colors`}
+                            className={`nav-link ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#7c8dc4] transition-colors`}
                         >
                             Testimonials
                         </Link>

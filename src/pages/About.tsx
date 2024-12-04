@@ -5,6 +5,9 @@ import { CheckCircle, Monitor, Shield, Wifi, Users, Settings, Tool } from 'react
 import { Navbar } from '../components/Navbar';
 import Footer from '../components/Fotter';
 import image from "../assets/Screenshot 2024-12-04 130017.png"
+import lan from "../assets/lan.png"
+import wireless from "../assets/wireless.png"
+import security from "../assets/security.png"
 
 export const About: React.FC = () => {
     const [activeTab, setActiveTab] = useState('vision');
@@ -36,17 +39,17 @@ export const About: React.FC = () => {
     const workItems = [
         {
             title: "LAN/WAN Installation",
-            image: "/placeholder.svg?height=300&width=400",
+            image: lan,
             alt: "Network Infrastructure"
         },
         {
             title: "Wireless Network Setup",
-            image: "/placeholder.svg?height=300&width=400",
+            image: wireless,
             alt: "Wireless Network"
         },
         {
             title: "Network Security",
-            image: "/placeholder.svg?height=300&width=400",
+            image: security,
             alt: "Network Security"
         },
         {
@@ -225,6 +228,3 @@ export const About: React.FC = () => {
         </div>
     );
 };
-
-
-
