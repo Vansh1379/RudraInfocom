@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle } from 'react-feather';
-import image from "../assets/image2.png"
+
 import image2 from "../assets/chosseUs.png"
 
 const WhyChooseUs: React.FC = () => {
