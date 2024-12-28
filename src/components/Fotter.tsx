@@ -29,9 +29,9 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-300" title='facebook'><Facebook /></a>
+              <a href="https://www.facebook.com/profile.php?id=61571110468020" className="hover:text-gray-300" title='facebook'><Facebook /></a>
               <a href="#" className="hover:text-gray-300" title='twitter'><Twitter /></a>
-              <a href="#" className="hover:text-gray-300" title='instagram'><Instagram /></a>
+              <a href="https://www.instagram.com/rudrainfo.co.in/" className="hover:text-gray-300" title='instagram'><Instagram /></a>
             </div>
           </div>
         </div>

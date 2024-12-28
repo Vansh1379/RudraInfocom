@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'react-feather';
+import logo from "../assets/rudra logo.png"
 
 export const Navbar: React.FC = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -39,9 +40,9 @@ export const Navbar: React.FC = () => {
                         className="flex items-center space-x-2"
                     >
                         <img
-                            src="/placeholder.svg"
+                            src={logo}
                             alt="Rudra Infocom Logo"
-                            className="h-10 w-10"
+                            className="h-9 w-9 object-cover"
                         />
                         <span className={`text-xl font-bold ${isScrolled ? 'text-[#1e2d5f]' : 'text-white'
                             }`}>
