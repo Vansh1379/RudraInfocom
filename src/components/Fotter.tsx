@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p className="text-sm">123 Tech Street, Digital City</p>
-            <p className="text-sm">contact@rudrainfo.com</p>
-            <p className="text-sm">+1 (555) 123-4567</p>
+            <p className="text-sm">1, Akhilesh society, near mona park, Vejalpur road, Jivrajpark, Ahmedabad - 380051.</p>
+            <p className="text-sm mt-2">Hemang@rudrainfo.co.in</p>
+            <p className="text-sm mt-2">+91 7600436960</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>

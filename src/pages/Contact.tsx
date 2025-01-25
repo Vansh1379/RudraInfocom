@@ -226,7 +226,7 @@ export const Contact: React.FC = () => {
                                             <div className="w-12 h-12 bg-[#1e2d5f]/10 rounded-full flex items-center justify-center">
                                                 <Mail className="w-5 h-5 text-[#1e2d5f]" />
                                             </div>
-                                            <span>support@rudrainfo.co.in</span>
+                                            <span>Hemang@rudrainfo.co.in</span>
                                         </motion.a>
                                         <motion.a
                                             href="tel:+917600436960"
@@ -236,7 +236,7 @@ export const Contact: React.FC = () => {
                                             <div className="w-12 h-12 bg-[#1e2d5f]/10 rounded-full flex items-center justify-center">
                                                 <Phone className="w-5 h-5 text-[#1e2d5f]" />
                                             </div>
-                                            <span>+91 (760) 043 6960</span>
+                                            <span>+91 7600436960</span>
                                         </motion.a>
                                         <motion.div
                                             className="flex items-center space-x-4 text-gray-600"
@@ -245,7 +245,7 @@ export const Contact: React.FC = () => {
                                             <div className="w-12 h-12 bg-[#1e2d5f]/10 rounded-full flex items-center justify-center">
                                                 <MapPin className="w-5 h-5 text-[#1e2d5f]" />
                                             </div>
-                                            <span>123 Tech Avenue, Digital City, Innovation State - 123456</span>
+                                            <span>1, Akhilesh society, near mona park, Vejalpur road, Jivrajpark, Ahmedabad - 380051</span>
                                         </motion.div>
                                     </div>
                                 </div>
