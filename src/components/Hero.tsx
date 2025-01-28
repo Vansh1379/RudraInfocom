@@ -1,7 +1,17 @@
 import React from 'react';
 import wifi from "../assets/image.png"
+import { useNavigate } from 'react-router-dom';
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
+  const handleContact = () => {
+    navigate('/contact');
+  }
+
+  const handleFeature = () => {
+    navigate("/features");
+  }
+
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-[#1e2d5f] text-white">
       <div className="container px-4 md:px-6 mx-auto">
@@ -16,10 +26,10 @@ const Hero: React.FC = () => {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <button className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#1e2d5f] shadow transition-colors hover:bg-gray-200">
+              <button onClick={handleContact} className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#1e2d5f] shadow transition-colors hover:bg-gray-200">
                 Get Started
               </button>
-              <button className="inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white/10">
+              <button onClick={handleFeature} className="inline-flex h-10 items-center justify-center rounded-md border border-white px-8 text-sm font-medium text-white shadow transition-colors hover:bg-white/10">
                 Learn More
               </button>
             </div>
