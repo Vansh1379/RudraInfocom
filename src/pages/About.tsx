@@ -60,14 +60,14 @@ export const About: React.FC = () => {
     ];
 
     const features = [
-        { icon: Monitor, title: "New Network Implementation" },
-        { icon: Wifi, title: "LAN/WAN/CCTV Maintenance" },
-        { icon: Wifi, title: "High-Speed Wireless Solutions" },
-        { icon: Shield, title: "Network Firewall Installation" },
-        { icon: Users, title: "24/7 Expert Support" },
-        { icon: Settings, title: "Custom IT Solutions" },
-        { icon: Tool, title: "Hardware Repair & Upgrade" },
-        { icon: CheckCircle, title: "Quality Assurance" }
+        { icon: Monitor, title: "New Network Implementation", description: "Seamlessly set up robust and reliable network infrastructure tailored to your business needs" },
+        { icon: Wifi, title: "LAN/WAN/CCTV Maintenance", description: "Ensure uninterrupted connectivity and security with our expert maintenance services for LAN, WAN, and CCTV systems" },
+        { icon: Wifi, title: "High-Speed Wireless Solutions", description: "Experience lightning-fast wireless connectivity with our cutting-edge solutions designed for optimal performance" },
+        { icon: Shield, title: "Network Firewall Installation", description: "Protect your network with advanced firewalls that safeguard your data from cyber threats and breaches" },
+        { icon: Users, title: "24/7 Expert Support", description: "Get round-the-clock technical assistance from our team of experienced IT professionals." },
+        { icon: Settings, title: "Custom IT Solutions", description: "Empower your business with tailored IT solutions that address your unique challenges and goals." },
+        { icon: Tool, title: "Hardware Repair & Upgrade", description: "Keep your hardware up-to-date and running smoothly with our expert repair and upgrade services." },
+        { icon: CheckCircle, title: "Quality Assurance", description: "Delivering excellence through meticulous quality checks and reliable IT services for your peace of mind." }
     ];
 
     return (
@@ -173,7 +173,7 @@ export const About: React.FC = () => {
                             >
                                 <feature.icon className="w-12 h-12 text-[#3a4d8f] mb-4" />
                                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                                <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p className="text-gray-300">{feature.description}</p>
                             </motion.div>
                         ))}
                     </div>
