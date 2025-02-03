@@ -8,7 +8,8 @@ import {
     Headphones,
     Radio,
     Activity,
-    CheckCircle
+    CheckCircle,
+    Lock
 } from 'react-feather';
 import { Navbar } from '../components/Navbar';
 import Footer from '../components/Fotter';
@@ -161,7 +162,7 @@ export const Services: React.FC = () => {
                                     <span>Firewall Protection</span>
                                 </div>
                                 <div className="flex items-center gap-3">
-
+                                    <Lock className='w-8 h-8'/>
                                     <span>Data Encryption</span>
                                 </div>
                                 <div className="flex items-center gap-3">
